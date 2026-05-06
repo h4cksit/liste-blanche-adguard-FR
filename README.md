@@ -8,6 +8,8 @@ domestiques fortement filtrés :
 - Smartphones Android/iOS qui basculent sur la 4G au lieu du Wi-Fi  
   (captive portal detection bloquée par les filtres DNS)
 
+**332 domaines validés** par résolution DNS depuis un réseau résidentiel FR (mai 2026).
+
 ---
 
 ## Utilisation
@@ -46,16 +48,16 @@ Captive portal, iTunes, App Store, métriques système.
 
 | Banque | Couverture |
 |---|---|
-| Caisse d'Épargne / BPCE | Web, mobile, MFA, Secur'Pass, S-money |
-| BNP Paribas / Hello Bank | Web, mobile, auth, push, CDN |
-| Société Générale | Web, mobile, OTP, auth |
-| Crédit Agricole / LCL | Web, mobile, auth, push |
-| Crédit Mutuel / CIC | Web, mobile, auth |
-| La Banque Postale | Web, mobile, auth, suivi colis |
-| Boursorama / BoursoBank | Web, mobile, auth, CDN |
-| Fortuneo | Web, mobile, auth |
-| N26 | Web, mobile, auth |
-| Revolut | Web, mobile, auth |
+| Caisse d'Épargne / BPCE | Web, mobile, MFA, Secur'Pass |
+| BNP Paribas / Hello Bank | Web, mobile |
+| Société Générale | Web, mobile |
+| Crédit Agricole / LCL | Web, mobile |
+| Crédit Mutuel / CIC | Web, mobile |
+| La Banque Postale | Web, mobile |
+| Boursorama / BoursoBank | Web, mobile |
+| Fortuneo | Web, mobile |
+| N26 | Web, mobile |
+| Revolut | Web, mobile |
 | Lydia / Sumeria | Mobile, API |
 | PayPal | Web, mobile, paiements |
 
@@ -65,10 +67,10 @@ Captive portal, iTunes, App Store, métriques système.
 
 | Opérateur | Couverture |
 |---|---|
-| Orange / Sosh | Portail, auth, mobile, push, CDN |
-| Bouygues Telecom / Bbox | Web, auth, mobile, push |
-| Free / Free Mobile | Web, mobile, Freebox, auth |
-| SFR / RED by SFR | Web, mobile, auth, push |
+| Orange / Sosh | Portail, auth, mobile, CDN |
+| Bouygues Telecom / Bbox | Web, auth, mobile |
+| Free / Free Mobile | Web, mobile, Freebox |
+| SFR / RED by SFR | Web, mobile |
 
 ---
 
@@ -121,15 +123,24 @@ par `$client='IP_DE_VOTRE_APPAREIL'`.
 
 ---
 
+## Méthode de validation
+
+Chaque entrée est validée par résolution DNS (A / AAAA) via Quad9 (9.9.9.9),  
+depuis un réseau résidentiel français, à l'aide d'un script Python dédié.  
+Les domaines NXDOMAIN confirmés sont supprimés à chaque mise à jour.
+
+Dernière validation : **mai 2026** — 95 entrées inexistantes supprimées.
+
+---
+
 ## Avertissement
 
-Certains domaines sont basés sur des patterns standards observés  
-en conditions réelles. Si un service reste bloqué, consultez les logs  
-AdGuard/Pi-hole pour identifier le domaine exact et ouvrez une issue.
+Si un service reste bloqué, consultez les logs AdGuard/Pi-hole pour  
+identifier le domaine exact et ouvrez une issue.
 
 Cette liste n'a pas vocation à débloquer des trackers publicitaires  
-de manière globale. Les entrées sensibles sont documentées et  
-justifiées par un besoin fonctionnel identifié.
+de manière globale. Les entrées sont documentées et justifiées  
+par un besoin fonctionnel identifié.
 
 ---
 
