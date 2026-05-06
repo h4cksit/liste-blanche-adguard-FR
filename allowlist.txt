@@ -14,7 +14,6 @@
 ! =====================================================
 @@||connectivitycheck.android.com^
 @@||connectivitycheck.gstatic.com^
-@@||connectivitycheck.samsung.com^
 @@||connectivity-check.ubuntu.com^
 @@||nmcheck.gnome.org^
 @@||captive.apple.com^
@@ -44,7 +43,6 @@
 @@||speech.platform.bing.com^
 @@||speech.microsoft.com^
 @@||api.speech.microsoft.com^
-@@||cognitiveservices.microsoft.com^
 @@||cognitiveservices.azure.com^
 @@||eu-mobile.events.data.microsoft.com^$important
 @@||eu-office.events.data.microsoft.com^$important
@@ -110,19 +108,12 @@
 ! --- Caisse d'Épargne ---
 @@||caisse-epargne.fr^$important
 @@||www.caisse-epargne.fr^$important
-@@||e-caisse-epargne.fr^$important
-@@||www.e-caisse-epargne.fr^$important
 @@||www.eum2.caisse-epargne.fr^$important
 @@||mfa.caisse-epargne.fr^$important
 @@||authentification.caisse-epargne.fr^$important
 @@||secure.caisse-epargne.fr^$important
-@@||security.e-caisse-epargne.fr^$important
 @@||otp.bpce.fr^$important
 @@||api.caisse-epargne.fr^$important
-@@||api.e-caisse-epargne.fr^$important
-@@||services.e-caisse-epargne.fr^$important
-@@||transaction.e-caisse-epargne.fr^$important
-@@||compte.e-caisse-epargne.fr^$important
 @@||mobile.caisse-epargne.fr^$important
 @@||notifs.caisse-epargne.fr^$important
 @@||push.caisse-epargne.fr^$important
@@ -146,64 +137,35 @@
 
 ! --- BNP Paribas ---
 @@||bnpparibas.fr^$important
-@@||mabanque.bnpparibas.fr^$important
-@@||secure.bnpparibas.fr^$important
-@@||auth.bnpparibas.fr^$important
-@@||mfa.bnpparibas.fr^$important
-@@||api.bnpparibas.fr^$important
-@@||mobile.bnpparibas.fr^$important
-@@||push.bnpparibas.fr^$important
-@@||cdn.bnpparibas.fr^$important
-@@||assets.bnpparibas.fr^$important
 
 ! --- Hello Bank (BNP) ---
 @@||hellobank.fr^$important
-@@||api.hellobank.fr^$important
-@@||mobile.hellobank.fr^$important
-@@||auth.hellobank.fr^$important
 
 ! --- Société Générale ---
 @@||societegenerale.fr^$important
 @@||particuliers.societegenerale.fr^$important
 @@||secure.societegenerale.fr^$important
-@@||auth.societegenerale.fr^$important
-@@||otp.societegenerale.fr^$important
 @@||api.societegenerale.fr^$important
-@@||mobile.societegenerale.fr^$important
-@@||cdn.societegenerale.fr^$important
 
 ! --- Crédit Agricole / LCL ---
 @@||credit-agricole.fr^$important
-@@||secure.credit-agricole.fr^$important
-@@||auth.credit-agricole.fr^$important
 @@||api.credit-agricole.fr^$important
 @@||mobile.credit-agricole.fr^$important
 @@||push.credit-agricole.fr^$important
 @@||lcl.fr^$important
-@@||api.lcl.fr^$important
 @@||mobile.lcl.fr^$important
 @@||secure.lcl.fr^$important
 
 ! --- Crédit Mutuel / CIC ---
 @@||creditmutuel.fr^$important
 @@||www.creditmutuel.fr^$important
-@@||api.creditmutuel.fr^$important
 @@||mobile.creditmutuel.fr^$important
-@@||auth.creditmutuel.fr^$important
-@@||secure.creditmutuel.fr^$important
 @@||cic.fr^$important
 @@||www.cic.fr^$important
-@@||api.cic.fr^$important
 @@||mobile.cic.fr^$important
-@@||secure.cic.fr^$important
 
 ! --- La Banque Postale / La Poste ---
 @@||labanquepostale.fr^$important
-@@||secure.labanquepostale.fr^$important
-@@||auth.labanquepostale.fr^$important
-@@||api.labanquepostale.fr^$important
-@@||mobile.labanquepostale.fr^$important
-@@||push.labanquepostale.fr^$important
 @@||laposte.fr^$important
 @@||api.laposte.fr^$important
 @@||t.notif-colissimo-laposte.info^$important
@@ -211,39 +173,25 @@
 ! --- Boursorama / BoursoBank ---
 @@||boursorama.com^$important
 @@||boursobank.com^$important
-@@||secure.boursorama.com^$important
-@@||auth.boursorama.com^$important
 @@||api.boursorama.com^$important
 @@||mobile.boursorama.com^$important
-@@||cdn.boursorama.com^$important
 
 ! --- Fortuneo ---
 @@||fortuneo.fr^$important
-@@||secure.fortuneo.fr^$important
-@@||auth.fortuneo.fr^$important
 @@||api.fortuneo.fr^$important
-@@||mobile.fortuneo.fr^$important
 
 ! --- N26 ---
 @@||n26.com^$important
-@@||api.n26.com^$important
-@@||auth.n26.com^$important
-@@||mobile.n26.com^$important
-@@||cdn.n26.com^$important
 
 ! --- Revolut ---
 @@||revolut.com^$important
 @@||api.revolut.com^$important
-@@||auth.revolut.com^$important
 @@||cdn.revolut.com^$important
 @@||mobile.revolut.com^$important
 
 ! --- Lydia / Sumeria ---
 @@||lydia-app.com^$important
 @@||api.lydia-app.com^$important
-@@||mobile.lydia-app.com^$important
-@@||sumeria.money^$important
-@@||api.sumeria.money^$important
 
 ! --- PayPal ---
 @@||paypal.com^$important
@@ -258,34 +206,24 @@
 
 ! --- Orange / Sosh ---
 @@||orange.fr^$important
-@@||portail.orange.fr^$important
 @@||auth.orange.fr^$important
-@@||api.orange.fr^$important
 @@||mobile.orange.fr^$important
-@@||push.orange.fr^$important
 @@||cdn.orange.fr^$important
 @@||sosh.fr^$important
 @@||api.sosh.fr^$important
-@@||mobile.sosh.fr^$important
 
 ! --- Bouygues Telecom / Bbox ---
 @@||bouyguestelecom.fr^$important
-@@||secure.bouyguestelecom.fr^$important
-@@||auth.bouyguestelecom.fr^$important
 @@||api.bouyguestelecom.fr^$important
 @@||mobile.bouyguestelecom.fr^$important
-@@||push.bouyguestelecom.fr^$important
 @@||cdn.bouyguestelecom.fr^$important
 @@||bbox.fr^$important
-@@||api.bbox.fr^$important
 
 ! --- Free / Free Mobile / Iliad ---
 @@||free.fr^$important
 @@||api.free.fr^$important
 @@||mobile.free.fr^$important
-@@||auth.free.fr^$important
 @@||freemobile.fr^$important
-@@||api.freemobile.fr^$important
 @@||iliad.fr^$important
 @@||mafreebox.freebox.fr^$important
 
@@ -294,12 +232,10 @@
 @@||sun-apps.sfr.com^$important
 @@||sfr.fr^$important
 @@||api.sfr.fr^$important
-@@||auth.sfr.fr^$important
 @@||mobile.sfr.fr^$important
 @@||push.sfr.fr^$important
 @@||red-by-sfr.fr^$important
 @@||api.red-by-sfr.fr^$important
-@@||mobile.red-by-sfr.fr^$important
 
 ! =====================================================
 ! STREAMING / MÉDIAS
@@ -307,8 +243,6 @@
 @@||logs.netflix.com^$important
 @@||api.oqee.net^$important
 @@||api-proxad.dc2.oqee.net^$important
-@@||img1.dc2.oqee.net^$important
-@@||img2.dc2.oqee.net^$important
 @@||license.oqee.net^$important
 @@||airable.wifiradiofrontier.com^$important
 @@||pixel.spotify.com^$important
@@ -322,8 +256,6 @@
 @@||e.pcloud.link^$important
 @@||internxt.com^
 @@||api.internxt.com^
-@@||auth.internxt.com^
-@@||cdn.internxt.com^
 @@||drive.internxt.com^
 @@||cdp.internxt.com^$important
 
@@ -334,9 +266,7 @@
 @@||fls-eu.amazon.fr^$important
 @@||fls-eu.amazon.com^$important
 @@||unagi.amazon.fr^$important
-@@||config.amazonvideo.com^
 @@||api.amazonvideo.com^
-@@||settings.data.amazon.com^
 
 ! =====================================================
 ! ÉCOSYSTÈME MOBILE CONSTRUCTEURS
@@ -350,7 +280,6 @@
 
 ! --- Xiaomi / MIUI ---
 @@||resolver.msg.global.xiaomi.net^
-@@||auth.micloud.xiaomi.net^
 @@||clientconfig.oss-accelerate.aliyuncs.com^
 
 ! --- Nintendo ---
@@ -359,7 +288,6 @@
 @@||npns.srv.nintendo.net^
 
 ! --- PlayStation ---
-@@||dms.ps.np.community.playstation.net^
 
 ! =====================================================
 ! DOMOTIQUE & MATÉRIEL
@@ -455,7 +383,6 @@
 @@||ws8.qualified.com^$important
 @@||api.refiner.io^$important
 @@||d5l9pp04.na1.hubspotlinks.com^$important
-@@||events.api.bosecm.com^$important
 @@||b1t-amsdc1.outbrain.com^$important
 @@||collector-pxzc5j78di.hsprotect.net^$important
 ! =====================================================
@@ -469,16 +396,13 @@
 
 ! --- Google Chromecast / Android TV ---
 @@||clients.l.google.com^$important
-@@||otaproxy.ota.samsungcloudsolution.com^$important
 @@||redirector.gvt1.com^$important
 @@||update.googleapis.com^$important
 
 ! --- Amazon Fire TV ---
 @@||device-metrics-us.amazon.com^$important
-@@||firs.amazon.com^$important
 @@||api.amazon.com^$important
 @@||todo.api.amazonvideo.com^$important
-@@||piranha.amazon.com^$important
 
 ! --- Apple TV ---
 @@||gs.apple.com^$important
@@ -493,13 +417,9 @@
 @@||tracking.miui.com^$important
 @@||data.mistat.xiaomi.com^$important
 @@||api.io.mi.com^$important
-@@||sgp-rc-openapi.io.mi.com^$important
 
 ! --- Sony Bravia ---
 @@||sonyselect.net^$important
-@@||bravia-oss-info.sony.net^$important
-@@||bravia.sony.net^$important
-@@||bravia-eu.sony.net^$important
 
 ! --- LG webOS ---
 @@||lgtvsdp.com^$important
@@ -511,8 +431,6 @@
 ! --- Samsung Smart TV ---
 @@||samsungcloudsolution.com^$important
 @@||cdn.samsungcloudsolution.com^$important
-@@||update.samsungcloudsolution.com^$important
-@@||tv.samsungcloudsolution.com^$important
 
 ! =====================================================
 ! DOMOTIQUE & MAISON CONNECTÉE
@@ -526,27 +444,20 @@
 
 ! --- Ikea Tradfri ---
 @@||fw.ota.homesmart.ikea.com^$important
-@@||api.ota.homesmart.ikea.com^$important
 
 ! --- Sonos ---
 @@||update.sonos.com^$important
-@@||metrics.sonos.com^$important
 @@||events.sonos.com^$important
-@@||push.sonos.com^$important
 
 ! --- Netatmo ---
 @@||app.netatmo.net^$important
 @@||api.netatmo.com^$important
-@@||push.netatmo.com^$important
 
 ! --- Somfy ---
 @@||ha101-1.overkiz.com^$important
-@@||api.overkiz.com^$important
-@@||push.overkiz.com^$important
 
 ! --- Legrand ---
 @@||eliot.legrand.com^$important
-@@||api.eliot.legrand.com^$important
 
 ! --- Fibaro ---
 @@||cloud.fibaro.com^$important
@@ -564,7 +475,6 @@
 ! --- Grafana ---
 @@||grafana.com^$important
 @@||stats.grafana.org^$important
-@@||update.grafana.com^$important
 
 ! --- Proxmox ---
 @@||enterprise.proxmox.com^$important
@@ -572,13 +482,9 @@
 
 ! --- Nextcloud ---
 @@||updates.nextcloud.com^$important
-@@||telemetry.nextcloud.com^$important
-@@||push.nextcloud.com^$important
 
 ! --- Portainer ---
 @@||api.portainer.io^$important
-@@||update.portainer.io^$important
-@@||telemetry.portainer.io^$important
 
 ! --- Uptime Kuma ---
 @@||uptime.kuma.pet^$important
@@ -591,7 +497,6 @@
 
 ! --- Pi-hole ---
 @@||pi-hole.net^$important
-@@||api.pi-hole.net^$important
 
 ! --- AdGuard ---
 @@||adguardteam.github.io^$important
