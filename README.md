@@ -117,7 +117,7 @@ Indispensable pour que les smartphones restent sur le Wi-Fi.
 - WhatsApp, Spotify, Batch, Amplitude
 ---
 ## Entrées spécifiques par client
-Certaines règles sont limitées à une IP spécifique (`$client='192.168.1.19'`)
+Certaines règles peuvent être limité par host,
 pour éviter d'ouvrir globalement des domaines publicitaires ou de tracking
 nécessaires uniquement sur un appareil précis (TV, box Android, etc.).
 ---
