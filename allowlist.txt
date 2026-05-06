@@ -515,35 +515,6 @@
 @@||tv.samsungcloudsolution.com^$important
 
 ! =====================================================
-! CONSTRUCTEURS MOBILES
-! =====================================================
-
-! --- Huawei ---
-@@||update.hicloud.com^$important
-@@||userupload.hicloud.com^$important
-@@||push.hicloud.com^$important
-@@||hwpush.hicloud.com^$important
-@@||mobilem.weather.com^$important
-
-! --- OnePlus / OPPO ---
-@@||push.coloros.com^$important
-@@||update.coloros.com^$important
-@@||stats.coloros.com^$important
-
-! --- Sony Mobile ---
-@@||push.sonymobile.com^$important
-@@||update.sonymobile.com^$important
-@@||dl.sonymobile.com^$important
-
-! --- Motorola ---
-@@||push.motorola.com^$important
-@@||update.motorola.com^$important
-
-! --- Nokia ---
-@@||push.nokia.com^$important
-@@||api.hmd.com^$important
-
-! =====================================================
 ! DOMOTIQUE & MAISON CONNECTÉE
 ! =====================================================
 
