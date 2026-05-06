@@ -1,6 +1,150 @@
 ! =====================================================
-! WHITELIST BNP PARIBAS
+! Liste blanche AdGuard / Pi-hole — FR
+! Auteur : h4cksit
+! Repo   : https://github.com/h4cksit/liste-blanche-adguard-FR
 ! =====================================================
+! Résout deux problèmes courants sur les réseaux domestiques filtrés :
+! - Services bancaires inaccessibles
+! - Smartphones qui basculent sur la 4G au lieu du Wi-Fi
+! =====================================================
+
+! =====================================================
+! DÉTECTION CONNECTIVITÉ / CAPTIVE PORTAL
+! Indispensable pour maintenir les mobiles sur le Wi-Fi
+! =====================================================
+@@||connectivitycheck.android.com^
+@@||connectivitycheck.gstatic.com^
+@@||connectivitycheck.samsung.com^
+@@||connectivity-check.ubuntu.com^
+@@||nmcheck.gnome.org^
+@@||captive.apple.com^
+@@||guzzoni.apple.com^
+@@||msftconnecttest.com^
+@@||msftncsi.com^
+@@||ipv6.msftconnecttest.com^
+@@||dns.msftncsi.com^
+@@||google.com^
+@@||www.google.com^
+@@||www.google.fr^
+@@||clients1.google.com^
+@@||clients2.google.com^
+@@||clients3.google.com^
+@@||clients4.google.com^
+@@||android.clients.google.com^
+@@||mtalk.google.com^
+@@||www.gstatic.com^
+@@||samsung.com^
+@@||gld.push.samsungosp.com^
+
+! =====================================================
+! MICROSOFT / AZURE / OFFICE 365
+! =====================================================
+@@||edge.microsoft.com^
+@@||settings-win.data.microsoft.com^
+@@||speech.platform.bing.com^
+@@||speech.microsoft.com^
+@@||api.speech.microsoft.com^
+@@||cognitiveservices.microsoft.com^
+@@||cognitiveservices.azure.com^
+@@||eu-mobile.events.data.microsoft.com^$important
+@@||eu-office.events.data.microsoft.com^$important
+@@||eu-teams.events.data.microsoft.com^$important
+@@||eu-v10c.events.data.microsoft.com^$important
+@@||eu-v20.events.data.microsoft.com^$important
+@@||emea.events.data.microsoft.com^$important
+@@||msft-ssp-emea.adnxs.com^$important
+@@||mobile.events.data.microsoft.com^$important
+@@||browser.events.data.msn.com^$important
+@@||browser.events.data.msn.cn^$important
+@@||exo.nel.measure.office.net^$important
+@@||m365cdn.nel.measure.office.net^$important
+@@||teams.nel.measure.office.net^$important
+@@||identity.nel.measure.office.net^$important
+@@||api.edgeoffer.microsoft.com^$important
+@@||inference.location.live.net^$important
+@@||gateway.bingviz.microsoftapp.net^$important
+@@||copilot-telemetry.githubusercontent.com^$important
+@@||sur.telemetry.intel.com^$important
+@@||c.msn.com^$important
+
+! =====================================================
+! GOOGLE / FIREBASE / ANDROID
+! =====================================================
+@@||googleapis.com^$important
+@@||fonts.googleapis.com^$important
+@@||fonts.gstatic.com^$important
+@@||gvt2.com^$important
+@@||ssl.google-analytics.com^$important
+@@||www.google-analytics.com^$important
+@@||region1.analytics.google.com^$important
+@@||region1.google-analytics.com^$important
+@@||www.googletagmanager.com^$important
+@@||tpc.googlesyndication.com^$important
+@@||ogads-pa.clients6.google.com^$important
+@@||androidtvchannels-pa.googleapis.com^$important
+@@||androidtvwatsonfe-pa.googleapis.com^$important
+@@||firebase-settings.crashlytics.com^$important
+@@||crashlyticsreports-pa.googleapis.com^$important
+@@||firebaselogging.googleapis.com^$important
+@@||firebaseinstallations.googleapis.com^$important
+@@||fcm.googleapis.com^$important
+@@||fundingchoicesmessages.google.com^$important
+@@||beacons5.gvt3.com^$important
+@@||collector.github.com^$important
+@@||github.com^$important
+
+! =====================================================
+! APPLE / iOS
+! =====================================================
+@@||apple.com^$important
+@@||gsp64-ssl.ls.apple.com^
+@@||init.itunes.apple.com^
+@@||gs.apple.com^
+@@||ca.iadsdk.apple.com^$important
+@@||supportmetrics.apple.com^$important
+
+! =====================================================
+! BANQUES FRANÇAISES
+! =====================================================
+
+! --- Caisse d'Épargne ---
+@@||caisse-epargne.fr^$important
+@@||www.caisse-epargne.fr^$important
+@@||e-caisse-epargne.fr^$important
+@@||www.e-caisse-epargne.fr^$important
+@@||www.eum2.caisse-epargne.fr^$important
+@@||mfa.caisse-epargne.fr^$important
+@@||authentification.caisse-epargne.fr^$important
+@@||secure.caisse-epargne.fr^$important
+@@||security.e-caisse-epargne.fr^$important
+@@||otp.bpce.fr^$important
+@@||api.caisse-epargne.fr^$important
+@@||api.e-caisse-epargne.fr^$important
+@@||services.e-caisse-epargne.fr^$important
+@@||transaction.e-caisse-epargne.fr^$important
+@@||compte.e-caisse-epargne.fr^$important
+@@||mobile.caisse-epargne.fr^$important
+@@||notifs.caisse-epargne.fr^$important
+@@||push.caisse-epargne.fr^$important
+@@||mobile-api.caisse-epargne.fr^$important
+@@||device.caisse-epargne.fr^$important
+@@||cdn.caisse-epargne.fr^$important
+@@||assets.caisse-epargne.fr^$important
+@@||static.caisse-epargne.fr^$important
+@@||s-money.fr^$important
+@@||api.s-money.fr^$important
+
+! --- BPCE (commun CE + Banque Pop) ---
+@@||bpce.fr^$important
+@@||api.bpce.fr^$important
+@@||auth.bpce.fr^$important
+@@||cdn.bpce.fr^$important
+@@||mobile.bpce.fr^$important
+@@||push.bpce.fr^$important
+@@||notification.bpce.fr^$important
+@@||bpce.kameleoon.eu^$important
+
+! --- BNP Paribas ---
 @@||bnpparibas.fr^$important
 @@||mabanque.bnpparibas.fr^$important
 @@||secure.bnpparibas.fr^$important
@@ -12,17 +156,13 @@
 @@||cdn.bnpparibas.fr^$important
 @@||assets.bnpparibas.fr^$important
 
-! =====================================================
-! WHITELIST HELLO BANK (BNP)
-! =====================================================
+! --- Hello Bank (BNP) ---
 @@||hellobank.fr^$important
 @@||api.hellobank.fr^$important
 @@||mobile.hellobank.fr^$important
 @@||auth.hellobank.fr^$important
 
-! =====================================================
-! WHITELIST SOCIÉTÉ GÉNÉRALE
-! =====================================================
+! --- Société Générale ---
 @@||societegenerale.fr^$important
 @@||particuliers.societegenerale.fr^$important
 @@||secure.societegenerale.fr^$important
@@ -32,9 +172,7 @@
 @@||mobile.societegenerale.fr^$important
 @@||cdn.societegenerale.fr^$important
 
-! =====================================================
-! WHITELIST CRÉDIT AGRICOLE / LCL
-! =====================================================
+! --- Crédit Agricole / LCL ---
 @@||credit-agricole.fr^$important
 @@||secure.credit-agricole.fr^$important
 @@||auth.credit-agricole.fr^$important
@@ -46,9 +184,7 @@
 @@||mobile.lcl.fr^$important
 @@||secure.lcl.fr^$important
 
-! =====================================================
-! WHITELIST CRÉDIT MUTUEL / CIC
-! =====================================================
+! --- Crédit Mutuel / CIC ---
 @@||creditmutuel.fr^$important
 @@||www.creditmutuel.fr^$important
 @@||api.creditmutuel.fr^$important
@@ -61,9 +197,7 @@
 @@||mobile.cic.fr^$important
 @@||secure.cic.fr^$important
 
-! =====================================================
-! WHITELIST LA BANQUE POSTALE / LA POSTE
-! =====================================================
+! --- La Banque Postale / La Poste ---
 @@||labanquepostale.fr^$important
 @@||secure.labanquepostale.fr^$important
 @@||auth.labanquepostale.fr^$important
@@ -72,10 +206,9 @@
 @@||push.labanquepostale.fr^$important
 @@||laposte.fr^$important
 @@||api.laposte.fr^$important
+@@||t.notif-colissimo-laposte.info^$important
 
-! =====================================================
-! WHITELIST BOURSORAMA / BOURSOBANK
-! =====================================================
+! --- Boursorama / BoursoBank ---
 @@||boursorama.com^$important
 @@||boursobank.com^$important
 @@||secure.boursorama.com^$important
@@ -84,45 +217,35 @@
 @@||mobile.boursorama.com^$important
 @@||cdn.boursorama.com^$important
 
-! =====================================================
-! WHITELIST FORTUNEO
-! =====================================================
+! --- Fortuneo ---
 @@||fortuneo.fr^$important
 @@||secure.fortuneo.fr^$important
 @@||auth.fortuneo.fr^$important
 @@||api.fortuneo.fr^$important
 @@||mobile.fortuneo.fr^$important
 
-! =====================================================
-! WHITELIST N26
-! =====================================================
+! --- N26 ---
 @@||n26.com^$important
 @@||api.n26.com^$important
 @@||auth.n26.com^$important
 @@||mobile.n26.com^$important
 @@||cdn.n26.com^$important
 
-! =====================================================
-! WHITELIST REVOLUT
-! =====================================================
+! --- Revolut ---
 @@||revolut.com^$important
 @@||api.revolut.com^$important
 @@||auth.revolut.com^$important
 @@||cdn.revolut.com^$important
 @@||mobile.revolut.com^$important
 
-! =====================================================
-! WHITELIST LYDIA / SUMERIA
-! =====================================================
+! --- Lydia / Sumeria ---
 @@||lydia-app.com^$important
 @@||api.lydia-app.com^$important
 @@||mobile.lydia-app.com^$important
 @@||sumeria.money^$important
 @@||api.sumeria.money^$important
 
-! =====================================================
-! WHITELIST PAYPAL
-! =====================================================
+! --- PayPal ---
 @@||paypal.com^$important
 @@||www.paypal.com^$important
 @@||api.paypal.com^$important
@@ -130,8 +253,10 @@
 @@||api-m.paypal.com^$important
 
 ! =====================================================
-! WHITELIST ORANGE / SOSH
+! OPÉRATEURS / FAI FRANÇAIS
 ! =====================================================
+
+! --- Orange / Sosh ---
 @@||orange.fr^$important
 @@||portail.orange.fr^$important
 @@||auth.orange.fr^$important
@@ -143,9 +268,7 @@
 @@||api.sosh.fr^$important
 @@||mobile.sosh.fr^$important
 
-! =====================================================
-! WHITELIST BOUYGUES TELECOM / BBOX
-! =====================================================
+! --- Bouygues Telecom / Bbox ---
 @@||bouyguestelecom.fr^$important
 @@||secure.bouyguestelecom.fr^$important
 @@||auth.bouyguestelecom.fr^$important
@@ -156,9 +279,7 @@
 @@||bbox.fr^$important
 @@||api.bbox.fr^$important
 
-! =====================================================
-! WHITELIST FREE / FREE MOBILE / ILIAD
-! =====================================================
+! --- Free / Free Mobile / Iliad ---
 @@||free.fr^$important
 @@||api.free.fr^$important
 @@||mobile.free.fr^$important
@@ -168,9 +289,9 @@
 @@||iliad.fr^$important
 @@||mafreebox.freebox.fr^$important
 
-! =====================================================
-! WHITELIST SFR / RED BY SFR (complément)
-! =====================================================
+! --- SFR / RED by SFR ---
+@@||sso-client.sfr.fr^$important
+@@||sun-apps.sfr.com^$important
 @@||sfr.fr^$important
 @@||api.sfr.fr^$important
 @@||auth.sfr.fr^$important
@@ -179,3 +300,328 @@
 @@||red-by-sfr.fr^$important
 @@||api.red-by-sfr.fr^$important
 @@||mobile.red-by-sfr.fr^$important
+
+! =====================================================
+! STREAMING / MÉDIAS
+! =====================================================
+@@||logs.netflix.com^$important
+@@||api.oqee.net^$important
+@@||api-proxad.dc2.oqee.net^$important
+@@||img1.dc2.oqee.net^$important
+@@||img2.dc2.oqee.net^$important
+@@||license.oqee.net^$important
+@@||airable.wifiradiofrontier.com^$important
+@@||pixel.spotify.com^$important
+
+! =====================================================
+! STOCKAGE CLOUD
+! =====================================================
+@@||pcdn-my.pcloud.com^$important
+@@||pcdn-www.pcloud.com^$important
+@@||pcdn-landing.pcloud.com^$important
+@@||e.pcloud.link^$important
+@@||internxt.com^
+@@||api.internxt.com^
+@@||auth.internxt.com^
+@@||cdn.internxt.com^
+@@||drive.internxt.com^
+@@||cdp.internxt.com^$important
+
+! =====================================================
+! AMAZON
+! =====================================================
+@@||aax-eu.amazon.fr^$important
+@@||fls-eu.amazon.fr^$important
+@@||fls-eu.amazon.com^$important
+@@||unagi.amazon.fr^$important
+@@||config.amazonvideo.com^
+@@||api.amazonvideo.com^
+@@||settings.data.amazon.com^
+
+! =====================================================
+! ÉCOSYSTÈME MOBILE CONSTRUCTEURS
+! =====================================================
+
+! --- Samsung ---
+@@||acr0.samsungcloudsolution.com^$important
+@@||lcprd1.samsungcloudsolution.net^$important
+@@||notice.samsungcloudsolution.com^$important
+@@||analytics.samsungknox.com^$important
+
+! --- Xiaomi / MIUI ---
+@@||resolver.msg.global.xiaomi.net^
+@@||auth.micloud.xiaomi.net^
+@@||clientconfig.oss-accelerate.aliyuncs.com^
+
+! --- Nintendo ---
+@@||receive-lp1.dg.srv.nintendo.net^$important
+@@||receive-lp1.er.srv.nintendo.net^$important
+@@||npns.srv.nintendo.net^
+
+! --- PlayStation ---
+@@||dms.ps.np.community.playstation.net^
+
+! =====================================================
+! DOMOTIQUE & MATÉRIEL
+! =====================================================
+@@||tracking.octoprint.org^$important
+@@||diag.meethue.com^$important
+@@||tpm.tuyacn.com^$important
+@@||analytics-xpress.jabra.com^$important
+@@||bosch.prf.hn^$important
+@@||infolink.pavv.co.kr^$important
+@@||api.nubila.ai^$important
+
+! =====================================================
+! LECTEURS MULTIMÉDIAS (Shield, Mi Box, Fire TV...)
+! Voir README pour personnalisation par appareil
+! =====================================================
+@@||prod.otel.kaizen.nvidia.com^$important
+@@||events.gfe.nvidia.com^$important
+@@||sdk.iad-03.braze.com^$important
+@@||googleads.g.doubleclick.net^$important
+@@||app-measurement.com^$important
+@@||metrics-broker.prod.p.tf1.fr^$important
+@@||adproxy.tf1.fr^$important
+@@||mobile-collector.eu01.nr-data.net^$important
+@@||mesure.streaming.estat.com^$important
+@@||hawk-tracker.360yield.com^$important
+@@||7b9de.v.fwmrm.net^$important
+@@||encrypted-tbn0.gstatic.com^$important
+@@||lma.npaw.com^$important
+
+! =====================================================
+! SERVICES & OUTILS
+! =====================================================
+@@||cloudflare-dns.com^$important
+@@||one.one.one.one^$important
+@@||o4507210383491072.ingest.de.sentry.io^$important
+@@||o42.ingest.sentry.io^$important
+@@||o22381.ingest.sentry.io^$important
+@@||o427061.ingest.sentry.io^$important
+@@||cdn.matomo.cloud^$important
+@@||portainer-ce.matomo.cloud^$important
+@@||sentry-manager.infomaniak.com^$important
+@@||analytics.infomaniak.com^$important
+@@||antidote.app^$important
+@@||browser-intake-datadoghq.com^$important
+@@||telemetry.influxdata.com^$important
+@@||static.cloudflareinsights.com^$important
+@@||cmp.quantcast.com^$important
+@@||cdn.amplitude.com^$important
+@@||ws.batch.com^$important
+@@||dit.whatsapp.net^$important
+@@||cdn.carbonads.com^$important
+
+! =====================================================
+! DIVERS
+! =====================================================
+@@||electroniqueamateur.blogspot.com^$important
+@@||www.az-delivery.de^$important
+@@||sb.scorecardresearch.com^$important
+@@||www.box.com^$important
+@@||aepxlg.adobe.com^$important
+@@||bam.eu01.nr-data.net^$important
+@@||collect.tealiumiq.com^$important
+@@||cdn.tagcommander.com^$important
+@@||try.abtasty.com^$important
+@@||b.6sc.co^$important
+@@||any.broker.failover.prod.zpath.net^$important
+@@||any.broker.prod.zpath.net^$important
+@@||broker8b.par3.prod.zpath.net^$important
+@@||broker12-2.mad3.prod.zpath.net^$important
+@@||broker21-2.par2.prod.zpath.net^$important
+@@||m.adnxs.com^$important
+@@||tattle.api.osano.com^$important
+@@||ogcvzt-launches.appsflyersdk.com^$important
+@@||api16-access-ttp.tiktokpangle.us^$important
+@@||nexus-websocket-a.intercom.io^$important
+@@||cdn-gl.nmrodam.com^$important
+@@||secure-fr.nmrodam.com^$important
+@@||nv0vxitpsdgsdk8nwlascye76098w1764972292.uaid.nmrodam.com^$important
+@@||tmqmzy3dk9h9uy0ek66atdu4s5tlz1767092604.uaid.nmrodam.com^$important
+@@||trace.svc.ui.com^$important
+@@||toblog.tobsnssdk.com^$important
+@@||device-api.asnapieu.com^$important
+@@||remote-data.asnapieu.com^$important
+@@||combine.asnapieu.com^$important
+@@||p11.techlab-cdn.com^$important
+@@||sdkapi.dsp-api.moloco.com^$important
+@@||sdk-api-v1.singular.net^$important
+@@||i-adq.mediation.unity3d.com^$important
+@@||c.cintnetworks.com^$important
+@@||us.creativecdn.com^$important
+@@||tags.creativecdn.com^$important
+@@||ws8.qualified.com^$important
+@@||api.refiner.io^$important
+@@||d5l9pp04.na1.hubspotlinks.com^$important
+@@||events.api.bosecm.com^$important
+@@||b1t-amsdc1.outbrain.com^$important
+@@||collector-pxzc5j78di.hsprotect.net^$important
+! =====================================================
+! LECTEURS MULTIMÉDIAS & TV CONNECTÉES
+! Shield, Mi Box, Fire TV, Chromecast, Apple TV...
+! =====================================================
+
+! --- NVIDIA Shield ---
+@@||gfwsl.geforce.com^$important
+@@||spclient.wg.spotify.com^$important
+
+! --- Google Chromecast / Android TV ---
+@@||clients.l.google.com^$important
+@@||otaproxy.ota.samsungcloudsolution.com^$important
+@@||redirector.gvt1.com^$important
+@@||update.googleapis.com^$important
+
+! --- Amazon Fire TV ---
+@@||device-metrics-us.amazon.com^$important
+@@||firs.amazon.com^$important
+@@||api.amazon.com^$important
+@@||todo.api.amazonvideo.com^$important
+@@||piranha.amazon.com^$important
+
+! --- Apple TV ---
+@@||gs.apple.com^$important
+@@||mesu.apple.com^$important
+@@||xp.apple.com^$important
+@@||swscan.apple.com^$important
+@@||appldnld.apple.com^$important
+@@||iosapps.itunes.apple.com^$important
+@@||osxapps.itunes.apple.com^$important
+
+! --- Xiaomi Mi Box / MIUI TV ---
+@@||tracking.miui.com^$important
+@@||data.mistat.xiaomi.com^$important
+@@||api.io.mi.com^$important
+@@||sgp-rc-openapi.io.mi.com^$important
+
+! --- Sony Bravia ---
+@@||sonyselect.net^$important
+@@||bravia-oss-info.sony.net^$important
+@@||bravia.sony.net^$important
+@@||bravia-eu.sony.net^$important
+
+! --- LG webOS ---
+@@||lgtvsdp.com^$important
+@@||ibis.lgappstv.com^$important
+@@||ngfts.lge.com^$important
+@@||aic-ngfts.lge.com^$important
+@@||smartshare.lgtvsdp.com^$important
+
+! --- Samsung Smart TV ---
+@@||samsungcloudsolution.com^$important
+@@||cdn.samsungcloudsolution.com^$important
+@@||update.samsungcloudsolution.com^$important
+@@||tv.samsungcloudsolution.com^$important
+
+! =====================================================
+! CONSTRUCTEURS MOBILES
+! =====================================================
+
+! --- Huawei ---
+@@||update.hicloud.com^$important
+@@||userupload.hicloud.com^$important
+@@||push.hicloud.com^$important
+@@||hwpush.hicloud.com^$important
+@@||mobilem.weather.com^$important
+
+! --- OnePlus / OPPO ---
+@@||push.coloros.com^$important
+@@||update.coloros.com^$important
+@@||stats.coloros.com^$important
+
+! --- Sony Mobile ---
+@@||push.sonymobile.com^$important
+@@||update.sonymobile.com^$important
+@@||dl.sonymobile.com^$important
+
+! --- Motorola ---
+@@||push.motorola.com^$important
+@@||update.motorola.com^$important
+
+! --- Nokia ---
+@@||push.nokia.com^$important
+@@||api.hmd.com^$important
+
+! =====================================================
+! DOMOTIQUE & MAISON CONNECTÉE
+! =====================================================
+
+! --- Home Assistant ---
+@@||analytics.home-assistant.io^$important
+@@||supervisor.home-assistant.io^$important
+@@||version.home-assistant.io^$important
+@@||alerts.home-assistant.io^$important
+
+! --- Ikea Tradfri ---
+@@||fw.ota.homesmart.ikea.com^$important
+@@||api.ota.homesmart.ikea.com^$important
+
+! --- Sonos ---
+@@||update.sonos.com^$important
+@@||metrics.sonos.com^$important
+@@||events.sonos.com^$important
+@@||push.sonos.com^$important
+
+! --- Netatmo ---
+@@||app.netatmo.net^$important
+@@||api.netatmo.com^$important
+@@||push.netatmo.com^$important
+
+! --- Somfy ---
+@@||ha101-1.overkiz.com^$important
+@@||api.overkiz.com^$important
+@@||push.overkiz.com^$important
+
+! --- Legrand ---
+@@||eliot.legrand.com^$important
+@@||api.eliot.legrand.com^$important
+
+! --- Fibaro ---
+@@||cloud.fibaro.com^$important
+@@||api.fibaro.com^$important
+
+! --- Shelly ---
+@@||shelly.cloud^$important
+@@||api.shelly.cloud^$important
+@@||mqtt.shelly.cloud^$important
+
+! =====================================================
+! OUTILS SELF-HOSTED & HOMELAB
+! =====================================================
+
+! --- Grafana ---
+@@||grafana.com^$important
+@@||stats.grafana.org^$important
+@@||update.grafana.com^$important
+
+! --- Proxmox ---
+@@||enterprise.proxmox.com^$important
+@@||download.proxmox.com^$important
+
+! --- Nextcloud ---
+@@||updates.nextcloud.com^$important
+@@||telemetry.nextcloud.com^$important
+@@||push.nextcloud.com^$important
+
+! --- Portainer ---
+@@||api.portainer.io^$important
+@@||update.portainer.io^$important
+@@||telemetry.portainer.io^$important
+
+! --- Uptime Kuma ---
+@@||uptime.kuma.pet^$important
+
+! --- Vaultwarden / Bitwarden ---
+@@||api.bitwarden.com^$important
+@@||identity.bitwarden.com^$important
+@@||push.bitwarden.com^$important
+@@||notifications.bitwarden.com^$important
+
+! --- Pi-hole ---
+@@||pi-hole.net^$important
+@@||api.pi-hole.net^$important
+
+! --- AdGuard ---
+@@||adguardteam.github.io^$important
+@@||filters.adtidy.org^$important
