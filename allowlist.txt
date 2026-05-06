@@ -1,0 +1,181 @@
+! =====================================================
+! WHITELIST BNP PARIBAS
+! =====================================================
+@@||bnpparibas.fr^$important
+@@||mabanque.bnpparibas.fr^$important
+@@||secure.bnpparibas.fr^$important
+@@||auth.bnpparibas.fr^$important
+@@||mfa.bnpparibas.fr^$important
+@@||api.bnpparibas.fr^$important
+@@||mobile.bnpparibas.fr^$important
+@@||push.bnpparibas.fr^$important
+@@||cdn.bnpparibas.fr^$important
+@@||assets.bnpparibas.fr^$important
+
+! =====================================================
+! WHITELIST HELLO BANK (BNP)
+! =====================================================
+@@||hellobank.fr^$important
+@@||api.hellobank.fr^$important
+@@||mobile.hellobank.fr^$important
+@@||auth.hellobank.fr^$important
+
+! =====================================================
+! WHITELIST SOCIÉTÉ GÉNÉRALE
+! =====================================================
+@@||societegenerale.fr^$important
+@@||particuliers.societegenerale.fr^$important
+@@||secure.societegenerale.fr^$important
+@@||auth.societegenerale.fr^$important
+@@||otp.societegenerale.fr^$important
+@@||api.societegenerale.fr^$important
+@@||mobile.societegenerale.fr^$important
+@@||cdn.societegenerale.fr^$important
+
+! =====================================================
+! WHITELIST CRÉDIT AGRICOLE / LCL
+! =====================================================
+@@||credit-agricole.fr^$important
+@@||secure.credit-agricole.fr^$important
+@@||auth.credit-agricole.fr^$important
+@@||api.credit-agricole.fr^$important
+@@||mobile.credit-agricole.fr^$important
+@@||push.credit-agricole.fr^$important
+@@||lcl.fr^$important
+@@||api.lcl.fr^$important
+@@||mobile.lcl.fr^$important
+@@||secure.lcl.fr^$important
+
+! =====================================================
+! WHITELIST CRÉDIT MUTUEL / CIC
+! =====================================================
+@@||creditmutuel.fr^$important
+@@||www.creditmutuel.fr^$important
+@@||api.creditmutuel.fr^$important
+@@||mobile.creditmutuel.fr^$important
+@@||auth.creditmutuel.fr^$important
+@@||secure.creditmutuel.fr^$important
+@@||cic.fr^$important
+@@||www.cic.fr^$important
+@@||api.cic.fr^$important
+@@||mobile.cic.fr^$important
+@@||secure.cic.fr^$important
+
+! =====================================================
+! WHITELIST LA BANQUE POSTALE / LA POSTE
+! =====================================================
+@@||labanquepostale.fr^$important
+@@||secure.labanquepostale.fr^$important
+@@||auth.labanquepostale.fr^$important
+@@||api.labanquepostale.fr^$important
+@@||mobile.labanquepostale.fr^$important
+@@||push.labanquepostale.fr^$important
+@@||laposte.fr^$important
+@@||api.laposte.fr^$important
+
+! =====================================================
+! WHITELIST BOURSORAMA / BOURSOBANK
+! =====================================================
+@@||boursorama.com^$important
+@@||boursobank.com^$important
+@@||secure.boursorama.com^$important
+@@||auth.boursorama.com^$important
+@@||api.boursorama.com^$important
+@@||mobile.boursorama.com^$important
+@@||cdn.boursorama.com^$important
+
+! =====================================================
+! WHITELIST FORTUNEO
+! =====================================================
+@@||fortuneo.fr^$important
+@@||secure.fortuneo.fr^$important
+@@||auth.fortuneo.fr^$important
+@@||api.fortuneo.fr^$important
+@@||mobile.fortuneo.fr^$important
+
+! =====================================================
+! WHITELIST N26
+! =====================================================
+@@||n26.com^$important
+@@||api.n26.com^$important
+@@||auth.n26.com^$important
+@@||mobile.n26.com^$important
+@@||cdn.n26.com^$important
+
+! =====================================================
+! WHITELIST REVOLUT
+! =====================================================
+@@||revolut.com^$important
+@@||api.revolut.com^$important
+@@||auth.revolut.com^$important
+@@||cdn.revolut.com^$important
+@@||mobile.revolut.com^$important
+
+! =====================================================
+! WHITELIST LYDIA / SUMERIA
+! =====================================================
+@@||lydia-app.com^$important
+@@||api.lydia-app.com^$important
+@@||mobile.lydia-app.com^$important
+@@||sumeria.money^$important
+@@||api.sumeria.money^$important
+
+! =====================================================
+! WHITELIST PAYPAL
+! =====================================================
+@@||paypal.com^$important
+@@||www.paypal.com^$important
+@@||api.paypal.com^$important
+@@||secure.paypal.com^$important
+@@||api-m.paypal.com^$important
+
+! =====================================================
+! WHITELIST ORANGE / SOSH
+! =====================================================
+@@||orange.fr^$important
+@@||portail.orange.fr^$important
+@@||auth.orange.fr^$important
+@@||api.orange.fr^$important
+@@||mobile.orange.fr^$important
+@@||push.orange.fr^$important
+@@||cdn.orange.fr^$important
+@@||sosh.fr^$important
+@@||api.sosh.fr^$important
+@@||mobile.sosh.fr^$important
+
+! =====================================================
+! WHITELIST BOUYGUES TELECOM / BBOX
+! =====================================================
+@@||bouyguestelecom.fr^$important
+@@||secure.bouyguestelecom.fr^$important
+@@||auth.bouyguestelecom.fr^$important
+@@||api.bouyguestelecom.fr^$important
+@@||mobile.bouyguestelecom.fr^$important
+@@||push.bouyguestelecom.fr^$important
+@@||cdn.bouyguestelecom.fr^$important
+@@||bbox.fr^$important
+@@||api.bbox.fr^$important
+
+! =====================================================
+! WHITELIST FREE / FREE MOBILE / ILIAD
+! =====================================================
+@@||free.fr^$important
+@@||api.free.fr^$important
+@@||mobile.free.fr^$important
+@@||auth.free.fr^$important
+@@||freemobile.fr^$important
+@@||api.freemobile.fr^$important
+@@||iliad.fr^$important
+@@||mafreebox.freebox.fr^$important
+
+! =====================================================
+! WHITELIST SFR / RED BY SFR (complément)
+! =====================================================
+@@||sfr.fr^$important
+@@||api.sfr.fr^$important
+@@||auth.sfr.fr^$important
+@@||mobile.sfr.fr^$important
+@@||push.sfr.fr^$important
+@@||red-by-sfr.fr^$important
+@@||api.red-by-sfr.fr^$important
+@@||mobile.red-by-sfr.fr^$important
